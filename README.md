@@ -1,4 +1,4 @@
-#Sagemaker Sentiment Analysis Web App
+# Sagemaker Sentiment Analysis Web App
 This project is a submission in fulfillment of the requirements in Udacity's Machine Learning Engineer Nanodegree. The base code is retrieved from https://github.com/udacity/sagemaker-deployment.git.
 
 # SageMaker Deployment Project
