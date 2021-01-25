@@ -84,6 +84,7 @@ def train(model, train_loader, epochs, optimizer, loss_fn, device):
             
             optimizer.zero_grad()
             loss.backward()
+            torch.nn.utils.clip_grad_norm_(model.parameters(), 0.25) # gradient clipping
             optimizer.step()
             
             total_loss += loss.data.item()
